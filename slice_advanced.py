@@ -1,5 +1,5 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+	texto = input("Tu Texto!: ")
+	length = len(texto)
+	#al parecer con slice [a:b:c] a sera la posicion inicial y b la final y c el paso, es decir cuantos caracteres salta. va a empezar en a + c.
+	print(texto[4:length:2])
